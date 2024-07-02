@@ -5,14 +5,21 @@ from evaluation import get_metrics
 from imblearn.pipeline import Pipeline as ImbPipeline
 
 from xgboost import XGBClassifier
-from imblearn.combine import SMOTEENN
+from imblearn.combine import SMOTETomek
 
 def create_pipeline(numeric_features, cat_features):
     preprocessor = create_preprocessor(numeric_features, cat_features)
+    sampling_strategy = {
+        0: 7735,   # HDF 
+        1: 7735,   # NF 
+        2: 7735,   # OSF
+        3: 7735,   # PWF
+        4: 100000    # TWF
+    }
     pipeline = ImbPipeline(steps=[
         ('preprocessor', preprocessor),
-        ('smote_tomek', SMOTEENN(random_state=2023)),  # Adjust sampling_strategy as needed
-        ('model', XGBClassifier(random_state=2023, eval_metric='mlogloss', objective='multi:softmax'))
+        ('smote_tomek', SMOTETomek(sampling_strategy=sampling_strategy, random_state=2023)),  # Adjust sampling_strategy as needed
+        ('model', XGBClassifier(random_state=2023, objective='multi:softmax'))
     ])
     return pipeline
 

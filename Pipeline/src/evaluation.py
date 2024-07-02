@@ -2,7 +2,6 @@ from sklearn.metrics import accuracy_score, balanced_accuracy_score, recall_scor
 
 def get_metrics(y_true, y_pred, unique_classes):
     # Calculating F1 scores for each class
-    print()
     f1_scores_per_class = f1_score(y_true, y_pred, average=None, labels=unique_classes)
     recall_scores_per_class = recall_score(y_true, y_pred, average=None, labels=unique_classes)
     precision_scores_per_class = precision_score(y_true, y_pred, average=None, labels=unique_classes)
