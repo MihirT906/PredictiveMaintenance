@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mihirthalanki/Documents/MT/UMass/Spring%2024/Projects/DataScience/PredictiveMaintenance/Pipeline/src/mlruns/683674177440017241/3a847c32dcef49f9aea2059725b5db2d/artifacts
+end_time: 1721387487452
+entry_point_name: ''
+experiment_id: '683674177440017241'
+lifecycle_stage: active
+run_id: 3a847c32dcef49f9aea2059725b5db2d
+run_name: custom_smote_tomek_XGB_run
+run_uuid: 3a847c32dcef49f9aea2059725b5db2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721387485035
+status: 3
+tags: []
+user_id: mihirthalanki

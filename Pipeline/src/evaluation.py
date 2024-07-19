@@ -14,8 +14,8 @@ def get_metrics(y_true, y_pred, unique_classes):
     'Macro Recall': recall_score(y_true, y_pred, average='macro'), 
     'Macro Precision': precision_score(y_true, y_pred, average='macro'), 
     'Macro F1': f1_score(y_true, y_pred, average='macro'),
-    'F1 Scores per Class': f1_scores_per_class,
-    'Recall Scores per Class': class_recall_scores,
-    'Precision Scores per Class': class_precision_scores
+    # 'F1 Scores per Class': f1_scores_per_class,
+    # 'Recall Scores per Class': class_recall_scores,
+    # 'Precision Scores per Class': class_precision_scores
     }
     return dict_metrics

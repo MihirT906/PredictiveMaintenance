@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mihirthalanki/Documents/MT/UMass/Spring%2024/Projects/DataScience/PredictiveMaintenance/Pipeline/src/mlruns/683674177440017241/71a4b0ff13904d148b6b06e9d4a5db4a/artifacts
+end_time: 1721387491505
+entry_point_name: ''
+experiment_id: '683674177440017241'
+lifecycle_stage: active
+run_id: 71a4b0ff13904d148b6b06e9d4a5db4a
+run_name: custom_smote_enn_XGB_run
+run_uuid: 71a4b0ff13904d148b6b06e9d4a5db4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721387489048
+status: 3
+tags: []
+user_id: mihirthalanki

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mihirthalanki/Documents/MT/UMass/Spring%2024/Projects/DataScience/PredictiveMaintenance/Pipeline/src/mlruns/683674177440017241/8ddf36b4e91949e6803a5fefce1df1e3/artifacts
+end_time: 1721387485034
+entry_point_name: ''
+experiment_id: '683674177440017241'
+lifecycle_stage: active
+run_id: 8ddf36b4e91949e6803a5fefce1df1e3
+run_name: baseline_XGB_run
+run_uuid: 8ddf36b4e91949e6803a5fefce1df1e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721387483529
+status: 3
+tags: []
+user_id: mihirthalanki

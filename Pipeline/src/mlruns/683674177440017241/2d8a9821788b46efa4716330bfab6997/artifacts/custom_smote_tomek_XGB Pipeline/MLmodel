@@ -1,0 +1,20 @@
+artifact_path: custom_smote_tomek_XGB Pipeline
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.14.3
+model_size_bytes: 1944475
+model_uuid: ea396fc335f8438ea4d6b54cc53ec767
+run_id: 2d8a9821788b46efa4716330bfab6997
+utc_time_created: '2024-07-19 11:09:32.308691'

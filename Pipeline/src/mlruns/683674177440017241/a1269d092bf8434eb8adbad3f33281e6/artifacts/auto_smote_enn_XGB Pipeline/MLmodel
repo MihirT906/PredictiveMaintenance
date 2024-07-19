@@ -1,0 +1,20 @@
+artifact_path: auto_smote_enn_XGB Pipeline
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.14.3
+model_size_bytes: 4171367
+model_uuid: bc02a9bee2d241569b5aa67220eea99e
+run_id: a1269d092bf8434eb8adbad3f33281e6
+utc_time_created: '2024-07-19 11:11:32.119441'
